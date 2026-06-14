@@ -1,0 +1,2 @@
+!pip install -q --upgrade transformers peft accelerate sentencepiece gradio
+!pip install -q bitsandbytes
