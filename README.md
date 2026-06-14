@@ -7,12 +7,6 @@
 
 Dự án nghiên cứu xây dựng hệ thống Trích xuất Thực thể Y khoa (Medical Named Entity Recognition - NER) chuyên sâu cho ngôn ngữ tiếng Việt bằng cách tinh chỉnh Mô hình Ngôn ngữ Lớn (LLMs). Dự án được thực hiện tại **Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội (HUS)**.
 
-## 👥 Nhóm phát triển
-- **Nguyễn Công Việt** (MSV: 23001953)
-- **Dương Văn Tài** (MSV: 23001925)
-- **Vũ Khắc Huy Vinh** (MSV: 23001956)
-- **Giảng viên hướng dẫn:** ThS. Ngô Thế Quyền
-
 ## 🌟 Điểm nổi bật (Key Contributions)
 - **Tinh chỉnh Hiệu quả Tham số (PEFT):** Áp dụng kỹ thuật **QLoRA** kết hợp lượng hóa 4-bit (NF4) để huấn luyện mô hình `Qwen2.5-3B-Instruct`. Hệ thống vận hành mượt mà trên phần cứng giới hạn (GPU 15GB VRAM - NVIDIA T4) mà vẫn bảo toàn năng lực biểu diễn tri thức.
 - **Prompt Engineering & Hậu xử lý:** Ép LLM sinh đầu ra theo định dạng JSON có cấu trúc nghiêm ngặt. Phát triển thuật toán cắt tỉa biên dấu câu, tối ưu tọa độ không gian văn bản để loại bỏ triệt để hiện tượng sinh văn bản ảo giác (hallucination).
